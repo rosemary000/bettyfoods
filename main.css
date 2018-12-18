@@ -1,0 +1,132 @@
+*{
+    color: lightpink
+}
+header{
+    background-color: maroon;
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.main-header {
+    background: linear-gradient(to right, coral, maroon);
+    text-align: center
+}
+
+ul,
+li,
+h1{
+    margin: -5;
+    padding: 5;
+}
+
+h1,
+ul,
+li{
+    display: block;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    margin-right: 20px
+}
+
+ul.main-nav{
+    padding: 2%;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    padding-right: 40px;
+    margin-bottom: 15px;
+    color: skyblue;
+}
+
+li a:hover{
+    color: coral;
+    padding: 10px;
+}
+
+.container .banner {
+    height: auto;
+    width: 100%;
+    padding-bottom: 10px;
+    display: cover;
+}
+h3,
+form{
+    text-align: center
+}
+
+input{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+p{
+    text-size-adjust: 1em;
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    text-align: center;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+.page-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: maroon;
+    text-align: center
+
+}
+/* ####MEDIA QUERY ####*/
+@media screen and (min-width: 769px) {
+    h1,
+    ul,
+    li{
+        display: inline-block;
+}
+li{
+    list-style: none;
+    text-align: end;
+    padding-right: 40px;
+    color: skyblue;
+}
+li a:hover{
+    color: maroon;
+    background-color: skyblue;
+    padding: 15px
+}
+p{
+    text-size-adjust: 1em;
+    width: 40em;
+    height: 9em;
+    padding-bottom: 40px;
+    margin-left: 23em;
+    margin-right: 50em;
+    text-align: center
+}
+fieldset{
+    margin-left: 30em;
+    margin-right: 30em
+}
+@media screen and (min width: 480 px) and (max width: 768px)
+{
+    p{
+        text-size-adjust: 1em;
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+        text-align: center;
+        display: block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+    }   
+    
+}
